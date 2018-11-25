@@ -16,6 +16,8 @@ app.use(require('./routes/usuario'));
 
 mongoose.connect(process.env.URLDB, { useNewUrlParser: true }, (err, res) => {
 
+    console.log(process.env.URLDB);
+
     if (err) throw err;
 
     console.log('Base de datos ONLINE');
