@@ -2,7 +2,7 @@
 process.env.PORT = process.env.PORT || 3000;
 
 // Entorno //
-process.env.NODE_ENV = process.env.NODE_END || 'dev';
+process.env.NODE_ENV = process.env.NODE_ENV || "dev";
 
 // Entorno BBDD //
 let urlDB;
