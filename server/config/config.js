@@ -17,7 +17,7 @@ process.env.URLDB = urlDB;
 
 
 // Fecha de expiración del token //
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // SEED de autenticación //
 process.env.SEED = process.env.SEED || 'secret-dev';
